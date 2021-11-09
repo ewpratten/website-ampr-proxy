@@ -1,5 +1,6 @@
 va3zza.com {
     reverse_proxy https://www2.va3zza.com {
-        header_up Host va3zza.com
+        header_up Host www2.va3zza.com
     }
+    header Server-Timing source;desc="net44"
 }
